@@ -1,2 +1,1 @@
-rootProject.name = "dsasolutions"
-
+rootProject.name = "dsa-solutions"
