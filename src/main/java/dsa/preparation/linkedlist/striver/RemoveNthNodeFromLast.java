@@ -1,5 +1,5 @@
 // https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/
-package dsa.preparation.linkedlist.linkedliststriver;
+package dsa.preparation.linkedlist.striver;
 
 public class RemoveNthNodeFromLast {
 

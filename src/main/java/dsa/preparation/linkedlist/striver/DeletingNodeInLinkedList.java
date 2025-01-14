@@ -1,5 +1,5 @@
 // https://leetcode.com/problems/delete-node-in-a-linked-list/description/
-package dsa.preparation.linkedlist.linkedliststriver;
+package dsa.preparation.linkedlist.striver;
 
 // TC - O(1)
 // SC - O(1)

@@ -1,7 +1,7 @@
 // https://leetcode.com/problems/merge-two-sorted-lists/description/
 //
 // VIDEO LECTURE - https://www.youtube.com/watch?v=Xb4slcp1U38&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=31
-package dsa.preparation.linkedlist.linkedliststriver;
+package dsa.preparation.linkedlist.striver;
 
 // BRUTE FORCE SOLUTION - TC - O(N1+N2), SC - O(N1+N2)
 public class MergeTwoSortedList {
