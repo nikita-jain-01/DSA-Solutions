@@ -1,5 +1,5 @@
 // https://www.geeksforgeeks.org/problems/search-in-linked-list-1664434326/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=search-in-linked-list-1664434326
-package dsa.preparation.linkedlist.linkedliststriver;
+package dsa.preparation.linkedlist.striver;
 
 public class SearchElementInLinkedList {
 

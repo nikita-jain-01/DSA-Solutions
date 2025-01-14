@@ -1,5 +1,5 @@
 // https://leetcode.com/problems/middle-of-the-linked-list/
-package dsa.preparation.linkedlist.linkedliststriver;
+package dsa.preparation.linkedlist.striver;
 
 public class MiddleOfLinkedList {
 

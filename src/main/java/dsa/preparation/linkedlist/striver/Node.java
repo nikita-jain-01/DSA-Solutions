@@ -1,4 +1,4 @@
-package dsa.preparation.linkedlist.linkedliststriver;
+package dsa.preparation.linkedlist.striver;
 
 public class Node {
 

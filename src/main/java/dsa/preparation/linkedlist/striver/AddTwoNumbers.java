@@ -1,7 +1,7 @@
 // https://leetcode.com/problems/add-two-numbers/
 //
 // Video Lecture - https://www.youtube.com/watch?v=LBVsXSMOIk4&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=33
-package dsa.preparation.linkedlist.linkedliststriver;
+package dsa.preparation.linkedlist.striver;
 
 // TC - O(Max(N,M)), SC - O(Max(M,N))
 public class AddTwoNumbers {

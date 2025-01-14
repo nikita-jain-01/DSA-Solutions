@@ -1,7 +1,7 @@
 // https://leetcode.com/problems/reverse-linked-list/
 //
 // Video lecture - https://www.youtube.com/watch?v=D2vI2DNJGd8
-package dsa.preparation.linkedlist.linkedliststriver;
+package dsa.preparation.linkedlist.striver;
 
 // BRUTE FORCE SOLUTION - Use stack, first traverse list and put all elements in
 // stack. Then traverse one more time and take out every element from stack
