@@ -1,5 +1,5 @@
 // https://leetcode.com/problems/reverse-linked-list/
-//
+// https://www.geeksforgeeks.org/problems/reverse-a-linked-list/1
 // Video lecture - https://www.youtube.com/watch?v=D2vI2DNJGd8
 package dsa.preparation.linkedlist.striver;
 
@@ -24,8 +24,7 @@ public class ReverseLinkedList {
         return head;
     }
 
-    // Recursive - TC - O(N), SC - O(N)[Because when we're calling it is remaining
-    // in stack]
+    // Recursive - TC - O(N), SC - O(N)[Because when we're calling it is remaining in stack]
     public Node recursiveReverseList(Node head) {
         if (head == null || head.next == null) {
             return head;

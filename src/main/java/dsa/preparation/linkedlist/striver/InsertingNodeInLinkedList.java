@@ -9,7 +9,7 @@ public class InsertingNodeInLinkedList {
         return temp;
     }
 
-    Node insertAtEnd(Node head, int x) {
+    Node insertAtEnd1(Node head, int x) {
         if (head == null) {
             return new Node(x);
         }
@@ -18,6 +18,19 @@ public class InsertingNodeInLinkedList {
             temp = temp.next;
         }
         temp.next = new Node(x);
+        return head;
+    }
+
+    // or
+    Node insertAtEnd2(Node head, int x) {
+        if(head==null) {
+            return new Node(x);
+        }
+        Node temp=head;
+        while(temp!=null && temp.next!=null) {
+            temp=temp.next;
+        }
+        temp.next=new Node(x);
         return head;
     }
 }
