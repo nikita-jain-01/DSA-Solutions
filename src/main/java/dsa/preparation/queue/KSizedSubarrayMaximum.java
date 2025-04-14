@@ -6,7 +6,7 @@ import java.util.ArrayList;
 public class KSizedSubarrayMaximum {
     // Brute Force
     public ArrayList<Integer> maxOfSubarrays(int arr[], int k) {
-        int max=Integer.MIN_VALUE;
+        int max;
         ArrayList<Integer> list=new ArrayList<>();
         for(int i=0;i<arr.length-k+1;i++) {
             max=Integer.MIN_VALUE;
