@@ -50,6 +50,29 @@ public class SortAnArrayOf0_1_2 {
     // BETTER SOLUTION -
     // TC - O(N), SC - O(1)
     // Count 0, 1 and 2 and set them in array count wise, as we already know we have only 0, 1 and 2
+    public void sort012(int[] arr) {
+        int start=0, end=arr.length-1, count=0, i=0;
+        while(i<arr.length) {
+            if(arr[i]==0) {
+                arr[start]=0;
+                start++;
+                i++;
+            } else if(arr[i]==1) {
+                count++;
+                i++;
+            } else if(arr[i]==2 && end>i) {
+                arr[i]=arr[end];
+                arr[end]=2;
+                end--;
+            } else {
+                i++;
+            }
+        }
+        for(i=1;i<=count;i++) {
+            arr[start]=1;
+            start++;
+        }
+    }
     
     // OPTIMAL SOLUTION (Using Binary Search) -
     // TC - O(N), SC - O(1)
