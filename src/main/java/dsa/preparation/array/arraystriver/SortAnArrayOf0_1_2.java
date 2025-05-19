@@ -93,6 +93,38 @@ public class SortAnArrayOf0_1_2 {
         }
     }
 
+    // TC - O(N), SC - O(1)
+    // Optimal Solution using Linear Search
+    public void optimal2SortColors(int[] nums) {
+        int start=0, med=-1, end=nums.length-1,i=0;
+        while(i<nums.length) {
+            if(nums[i]==0) {
+                if(nums[start]==1 && med!=-1) {
+                    nums[start]=0;
+                    start++;
+                    nums[med]=1;
+                    med++;
+                } else {
+                    nums[start]=0;
+                    start++;
+                }
+            } else if(nums[i]==1) {
+                if(med==-1)
+                    med=start;
+                nums[med]=1;
+                med++;
+            } else if(end>i && nums[i]==2) {
+                if(nums[end]==2)
+                    end--;
+                nums[i]=nums[end];
+                nums[end]=2;
+                end--;
+                i--;
+            }
+            i++;
+        }
+    }
+
     public void swap(int[] arr, int first, int second) {
         int temp=arr[first];
         arr[first]=arr[second];
