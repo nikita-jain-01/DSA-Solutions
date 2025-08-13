@@ -1,6 +1,5 @@
 // https://leetcode.com/problems/sort-colors/
 // https://www.geeksforgeeks.org/problems/sort-an-array-of-0s-1s-and-2s4231/1?page=1&sortBy=submissions
-
 package dsa.preparation.array.arraystriver;
 
 import java.util.ArrayList;
@@ -74,7 +73,7 @@ public class SortAnArrayOf0_1_2 {
             start++;
         }
     }
-    
+
     // OPTIMAL SOLUTION (Using Binary Search) -
     // TC - O(N), SC - O(1)
     public void optimalSortColors(int[] arr) {
@@ -90,6 +89,38 @@ public class SortAnArrayOf0_1_2 {
                 swap(arr, mid, high);
                 high--;
             }
+        }
+    }
+
+    // TC - O(N), SC - O(1)
+    // Optimal Solution using Linear Search
+    public void optimal2SortColors(int[] nums) {
+        int start=0, med=-1, end=nums.length-1,i=0;
+        while(i<nums.length) {
+            if(nums[i]==0) {
+                if(nums[start]==1 && med!=-1) {
+                    nums[start]=0;
+                    start++;
+                    nums[med]=1;
+                    med++;
+                } else {
+                    nums[start]=0;
+                    start++;
+                }
+            } else if(nums[i]==1) {
+                if(med==-1)
+                    med=start;
+                nums[med]=1;
+                med++;
+            } else if(end>i && nums[i]==2) {
+                if(nums[end]==2)
+                    end--;
+                nums[i]=nums[end];
+                nums[end]=2;
+                end--;
+                i--;
+            }
+            i++;
         }
     }
 
