@@ -1,5 +1,5 @@
 plugins {
-    id("org.springframework.boot") version "2.7.2"
+    id("org.springframework.boot") version "3.3.11"
     id("io.spring.dependency-management") version "1.0.13.RELEASE"
     application
 }
@@ -11,7 +11,7 @@ repositories {
     mavenLocal()
 }
 
-var springbootDataEnvers = "2.7.2"
+var springbootDataEnvers = "3.3.11"
 var springfox = "3.0.0"
 var modelmapper = "3.1.0"
 var commonLang = "3.12.0"
