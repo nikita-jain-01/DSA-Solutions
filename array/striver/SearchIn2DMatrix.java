@@ -3,13 +3,24 @@
 // Video Lecture - https://www.youtube.com/watch?v=JXU4Akft7yk
 package dsa.preparation.array.arraystriver;
 
-// BRUTE FORCE SOLUTION - O(n*m) means take two loops one for row and one for column and then find element one by one
-//
-//
-// BETTER SOLUTION - O(M+N)
-// In below solution, instead of linear search we should apply binary search. So, from this time complexity will be O(N)+log(M)
 public class SearchIn2DMatrix {
 
+// BRUTE FORCE SOLUTION - O(n*m) means take two loops one for row and one for column and then find element one by one
+
+    public boolean searchMatrixBrute(int[][] matrix, int target) {
+        for(int[] array:matrix) {
+            if(array[0]>target)
+                break;
+            for(int j=0;j<array.length;j++) {
+                if(array[j]==target)
+                    return true;
+            }
+        }
+        return false;
+    }
+
+// BETTER SOLUTION - O(M+N)
+// In below solution, instead of linear search we should apply binary search. So, from this time complexity will be O(N)+log(M)
     public boolean searchMatrix(int[][] matrix, int target) {
         int i;
         if (matrix[0].length > 0 && matrix[0][0] > target) {
