@@ -1,5 +1,5 @@
 // https://leetcode.com/problems/rotate-array/
-package dsa.preparation.array.arraystriver;
+package array.striver;
 
 public class RotateArray {
     // Tc - O(N)
@@ -47,7 +47,7 @@ public class RotateArray {
     // Sc - O(N)
     public void rotate3(int[] nums, int k) {
         k=k%nums.length;
-        int temp=0;
+        int temp;
         int[] arr=new int[nums.length];
         for(int i=0; i<nums.length; i++) {
             temp=k+i;

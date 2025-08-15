@@ -1,6 +1,6 @@
 // https://leetcode.com/problems/sort-colors/
 // https://www.geeksforgeeks.org/problems/sort-an-array-of-0s-1s-and-2s4231/1?page=1&sortBy=submissions
-package dsa.preparation.array.arraystriver;
+package array.striver;
 
 import java.util.ArrayList;
 

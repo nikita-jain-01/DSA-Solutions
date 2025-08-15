@@ -1,4 +1,4 @@
-package dsa.preparation.array.geeksforgeeks;
+package array.geeksforgeeks;
 
 import java.util.HashMap;
 import java.util.Map;
