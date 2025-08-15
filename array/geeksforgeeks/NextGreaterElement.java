@@ -1,12 +1,12 @@
 // https://www.geeksforgeeks.org/problems/next-larger-element-1587115620/1
 
-package dsa.preparation.array.geeksforgeeks;
+package array.geeksforgeeks;
 import java.util.ArrayList;
 
 public class NextGreaterElement {
     // O(N^2) Time Complexity
     public ArrayList<Integer> nextLargerElement1(int[] arr) {
-        int j=0, i=0, k=0;
+        int j, i, k;
         ArrayList<Integer> maxList=new ArrayList<>();
         for(i=0;i<arr.length-1;i++) {
             k=0;

@@ -1,6 +1,6 @@
 // https://www.geeksforgeeks.org/problems/tywins-war-strategy0527/1
 
-package dsa.preparation.array.geeksforgeeks;
+package array.geeksforgeeks;
 
 import java.util.Arrays;
 

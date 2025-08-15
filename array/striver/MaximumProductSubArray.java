@@ -1,9 +1,9 @@
 // https://www.geeksforgeeks.org/problems/maximum-product-subarray3604/1
-package dsa.preparation.array.arraystriver;
+package array.striver;
 
 public class MaximumProductSubArray {
-    int maxProduct(int[] arr) {
-        int sum=1;
+    public int maxProduct(int[] arr) {
+        int sum;
         int max=Integer.MIN_VALUE;
         for(int i=0; i<arr.length; i++) {
             sum=1;
