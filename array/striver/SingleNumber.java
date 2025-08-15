@@ -5,7 +5,7 @@ import java.util.Map;
 public class SingleNumber {
     // TC  - O(N2), SC - O(1)
     public int singleNumberBrute(int[] nums) {
-        int i,j,k=0,count=1;
+        int i,j,k=0,count;
         for(i=0;i<nums.length;i++)
         {
             count=1;
