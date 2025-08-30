@@ -9,8 +9,7 @@
 
 //OPTIMAL solution - TC - O(N)
 public class SecondLargestElement {
-    int print2largest(int arr[], int n) {
-        // code here
+    public int print2largest(int arr[], int n) {
         int max=arr[0],secondMax=-1;
         for(int i=0;i<n;i++) {
             if(max<arr[i]){

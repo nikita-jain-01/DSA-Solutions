@@ -1,5 +1,5 @@
 // https://www.geeksforgeeks.org/problems/maximum-value-in-a-bitonic-array3001/1
-package dsa.preparation.array.geeksforgeeks;
+package array.geeksforgeeks;
 
 public class BitonicPoint {
     public int findMaximum(int[] arr) {

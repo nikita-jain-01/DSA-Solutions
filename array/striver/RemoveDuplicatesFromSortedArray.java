@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/
+package array.striver;
 
 // BRUTE FORCE solution - take a set and insert every element in that set
 // by default set will allow only unique elements, and the we'll set 
@@ -12,7 +13,7 @@
 public class RemoveDuplicatesFromSortedArray {
 
     public int removeDuplicates(int[] nums) {
-        int i = 0, j = 0;
+        int i = 0, j;
         for (j = 1; j < nums.length; j++) {
             if (nums[i] != nums[j]) {
                 i++;

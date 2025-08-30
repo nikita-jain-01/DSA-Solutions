@@ -1,5 +1,5 @@
 // https://www.geeksforgeeks.org/problems/find-duplicates-in-an-array/1?page=1&sortBy=submissions
-package dsa.preparation.array.geeksforgeeks;
+package array.geeksforgeeks;
 
 import java.util.ArrayList;
 import java.util.HashMap;

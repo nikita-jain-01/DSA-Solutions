@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/move-zeroes/description/
+package array.striver;
 
 // BRUTE FORCE solution - First take a temp array and store every non-zero element
 // in that array. After that assign every element of that array into nums array
@@ -24,7 +25,7 @@ public class MoveZeroesToEnd {
 
     // or
     public void moveZeroes2(int[] nums) {
-        int i=0, j=0;
+        int i, j=0;
         for(i=0;i<nums.length;i++) {
             if(nums[i]!=0) {
                 nums[j]=nums[i];

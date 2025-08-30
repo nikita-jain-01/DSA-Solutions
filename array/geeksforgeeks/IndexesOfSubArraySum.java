@@ -1,11 +1,11 @@
 // https://www.geeksforgeeks.org/problems/subarray-with-given-sum-1587115621/1?page=1&company=Amazon&sortBy=submissions
-package dsa.preparation.array.geeksforgeeks;
+package array.geeksforgeeks;
 
 import java.util.ArrayList;
 
 public class IndexesOfSubArraySum {
-    static ArrayList<Integer> subarraySum(int[] arr, int target) {
-        int sum=0, k=-1;
+    static ArrayList<Integer> subArraySum(int[] arr, int target) {
+        int sum, k=-1;
         ArrayList<Integer> result = new ArrayList<>();
         for(int i=0; i<arr.length; i++) {
             sum=0;
