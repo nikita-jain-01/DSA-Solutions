@@ -1,5 +1,3 @@
-package dsa.preparation.array.arraystriver;
-
 // optimal solution - TC - O(n)
 public class LeftRotateArrayByOnePlace {
     public void rotate(int[] nums) {

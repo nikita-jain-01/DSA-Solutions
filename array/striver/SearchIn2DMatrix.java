@@ -1,7 +1,6 @@
 // Question - https://leetcode.com/problems/search-a-2d-matrix/solutions/
 //
 // Video Lecture - https://www.youtube.com/watch?v=JXU4Akft7yk
-package dsa.preparation.array.arraystriver;
 
 public class SearchIn2DMatrix {
 

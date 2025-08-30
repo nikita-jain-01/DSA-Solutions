@@ -1,5 +1,3 @@
-package dsa.preparation.array.arraystriver;
-
 public class LeftRotateArrayByDPlaces {
     public void rotate(int[] nums, int k) {
         k=k%nums.length;

@@ -1,7 +1,5 @@
 // https://www.geeksforgeeks.org/problems/second-largest3735/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=second-largest
 
-package dsa.preparation.array.arraystriver;
-
 // BRUTE solution - Sort array then start a loop from n-2 to 0 and 
 // find second largest element . TC - O(N logN)
 
