@@ -1,5 +1,4 @@
 // https://leetcode.com/problems/binary-search/
-package dsa.preparation.array.arraystriver;
 
 // OPTIMAL SOLUTION
 public class BinarySearchToFindXInSortedArray {

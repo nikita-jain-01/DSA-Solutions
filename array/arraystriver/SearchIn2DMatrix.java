@@ -1,7 +1,6 @@
 // Question - https://leetcode.com/problems/search-a-2d-matrix/solutions/
 //
 // Video Lecture - https://www.youtube.com/watch?v=JXU4Akft7yk
-package dsa.preparation.array.arraystriver;
 
 // BRUTE FORCE SOLUTION - O(n*m) means take two loops one for row and one for column and then find element one by one
 //

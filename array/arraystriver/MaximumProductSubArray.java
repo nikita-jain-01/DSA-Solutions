@@ -1,5 +1,4 @@
 // https://www.geeksforgeeks.org/problems/maximum-product-subarray3604/1
-package dsa.preparation.array.arraystriver;
 
 public class MaximumProductSubArray {
     int maxProduct(int[] arr) {

@@ -1,7 +1,5 @@
 // https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/
 
-package dsa.preparation.array.arraystriver;
-
 // optimal solution
 public class CheckArrayIsRotatedAndSorted {
     public boolean check(int[] nums) {

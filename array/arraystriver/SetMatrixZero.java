@@ -1,6 +1,5 @@
 // https://leetcode.com/problems/set-matrix-zeroes/description/
 // video lecture - https://www.youtube.com/watch?v=N0MgLvceX7M
-package dsa.preparation.array.arraystriver;
 
 public class SetMatrixZero {
 

@@ -1,5 +1,4 @@
 // https://leetcode.com/problems/missing-number/
-package dsa.preparation.array.arraystriver;
 
 import java.util.Arrays;
 

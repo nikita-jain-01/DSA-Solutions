@@ -1,6 +1,4 @@
 // https://leetcode.com/problems/subarray-sum-equals-k/
-package dsa.preparation.array.arraystriver;
-
 public class CountSubArrayWithGivenSum {
     // TC - O(N^2)
     public int subarraySum(int[] arr, int target) {

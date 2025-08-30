@@ -1,7 +1,6 @@
 // https://leetcode.com/problems/merge-sorted-array/
 
 // Video Lecture - https://www.youtube.com/watch?v=n7uwj04E0I4
-package dsa.preparation.array.arraystriver;
 
 import static java.util.Arrays.sort;
 

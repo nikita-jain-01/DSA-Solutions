@@ -1,5 +1,4 @@
 // https://leetcode.com/problems/rotate-array/
-package dsa.preparation.array.arraystriver;
 
 public class RotateArray {
     // Tc - O(N)

@@ -1,5 +1,4 @@
 // https://leetcode.com/problems/max-consecutive-ones/description/
-package dsa.preparation.array.arraystriver;
 
 // OPTIMAL solution
 // TC - O(N)

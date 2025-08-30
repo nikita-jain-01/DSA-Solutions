@@ -1,5 +1,4 @@
 // https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/
-package dsa.preparation.array.arraystriver;
 
 // BRUTE FORCE solution - take a set and insert every element in that set
 // by default set will allow only unique elements, and the we'll set 

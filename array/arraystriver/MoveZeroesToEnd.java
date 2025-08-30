@@ -1,5 +1,4 @@
 // https://leetcode.com/problems/move-zeroes/description/
-package dsa.preparation.array.arraystriver;
 
 // BRUTE FORCE solution - First take a temp array and store every non-zero element
 // in that array. After that assign every element of that array into nums array

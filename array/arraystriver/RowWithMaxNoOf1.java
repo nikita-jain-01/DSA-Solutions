@@ -1,7 +1,6 @@
 // https://www.geeksforgeeks.org/problems/row-with-max-1s0023/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=row-with-max-1s
 //
 // VIDEO LECTURE - https://www.youtube.com/watch?v=SCz-1TtYxDI
-package dsa.preparation.array.arraystriver;
 
 public class RowWithMaxNoOf1 {
 
